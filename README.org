@@ -46,7 +46,7 @@ Hugo puts all the static files:
 
 *** Add the remote on your local machine
 
-This depends on your domain of your Dokku server:
+This depends on the domain of your Dokku server:
 
 #+BEGIN_SRC shell
   git remote add dokku dokku@dokku.me:quickstart
@@ -109,7 +109,7 @@ As usual:
 
     This setting will be ignored, if there is only a single
     configuration file at the root of the Hugo project.
-    
+
     See [[https://gohugo.io/getting-started/configuration/#configuration-directory][configuration directory]] from the Hugo documentation.
 
 * How does it work?
@@ -155,8 +155,7 @@ As usual:
 * Are there alternatives?
   There are at least three other buildpacks that aim to support
   deployment of a Hugo site on Dokku/Heroku, that I know of. Although
-  they did not work for me, I took some of their ideas I've seen
-  there.
+  they did not work for me, I took some of their ideas.
 
   - [[https://github.com/roperzh/heroku-buildpack-hugo][heroku-buildpack-hugo]] :: This seems to be the first buildpack
     of that kind. What didn't work for me:
@@ -182,4 +181,3 @@ As usual:
       #+END_QUOTE
   - [[https://github.com/GuidedTrack/heroku-buildpack-hugo-binary][heroku-buildpack-hugo-binary]] :: Written in ruby and no
     documentation at all. Can't say how and if it works.
- 
